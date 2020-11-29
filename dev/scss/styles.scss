@@ -1,1 +1,19 @@
-// Place your Sass imports here...
+//Variables
+@import "vars";
+
+//Resets
+@import "reset";
+
+//Typography
+@import "typography";
+
+//HTML Components
+@import "body";
+@import "nav";
+@import "main";
+@import "footer";
+
+//Section Specific Partials
+@import "section-food-image";
+@import "section-posts";
+@import "section-side-menu";
