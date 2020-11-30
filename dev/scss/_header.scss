@@ -1,0 +1,39 @@
+#logo-large {
+    display: none;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding: 5px 10px;
+}
+.menu-btn {
+    background-color: transparent;
+    border: transparent;
+}
+.search-input01 {
+    display: none;
+}
+@media (min-width: 335px) {
+    #logo-large {
+        display: block;
+        max-width: 80%;
+        max-height: 80%;
+    }
+    #logo-small {
+        display: none;
+    }
+}
+@media (min-width: 500px) {
+    //search bar appears & padding increase for top-menu
+}
+@media (min-width: 670px) {
+    //top three images change format
+}
+@media (min-width: 700px) {
+    //socila media icons appear
+}
+@media (min-width: 800px) {
+    //recipes and cuisines shift to side menu
+}
