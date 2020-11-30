@@ -16,21 +16,20 @@
  display: none;
 }
 @media (min-width: 335px) {
- #logo-large {
-  display: block;
-  max-width: 80%;
+    #logo-large {
+        display: block;
+        max-width: 80%;
  }
- #logo-small {
-  display: none;
+    #logo-small {
+        display: none;
  }
 }
 @media (min-width: 500px) {
     #logo-large{
-    max-width: 90%;
+        max-width: 90%;
     }
     .search-input01{
         display: flex;
-
     }
 
  //search bar appears & padding increase for top-menu
