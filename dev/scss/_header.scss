@@ -9,6 +9,7 @@
     align-items: center;
     width: 100%;
     padding: 5px 10px;
+    background-color: white;
 }
 header{
     background-color: white;
@@ -16,19 +17,51 @@ header{
 .menu-btn {
     background-color: transparent;
     border: none;
+    outline: none;
+    cursor: pointer;
 }
 .search-input01 {
     display: none;
 }
 .drop-down-nav{
     display: none;
+    border: 1px solid;
+    margin-bottom: 15px;
 }
 .show header nav {
     display: block;
     width: 100%;
 }
+.nav-a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 100;
+    width: 100%;
+    padding: 10px 0px;
+}
+.nav-a:hover{
+    background-color: white;
+    color: $blue;
+    transition: background-color 0.3s;
+}
+.nav-li{
+    background-color: $blue;
+    border: 1px solid $darkBlue;
+    text-align: center;
+}
 .desktop-nav{
     display: none;
+}
+.search-input02{
+    display: flex;
+    justify-content: space-between;
+    background-color: $searchGrey; 
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px grey;
 }
 
 @media (min-width: 335px) {
@@ -47,11 +80,33 @@ header{
     }
     .desktop-nav{
         display: flex;
+        margin: 0 auto;
+        max-width: 1000px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: $blue;
+        padding: 0px 10px;
+        height: 40px;
+    }
+    .desktop-bar{
+        background-color: $darkBlue;
     }
     .search-input01{
         display: flex;
+        justify-content: space-between;
+        background-color: $searchGrey;
+        width: 150px;
+        align-items: center;
+        padding: 5px;
+        margin: 0px;
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 2px grey;
     }
     .search-input03{
+        display: none;
+    }
+    .show header nav{
         display: none;
     }
 }
