@@ -16,23 +16,15 @@
  display: none;
 }
 @media (min-width: 335px) {
-<<<<<<< HEAD
     #logo-large {
         display: block;
         max-width: 80%;
-=======
- #logo-large {
-  display: block;
-  max-width: 80%;
-  max-height: 80%;
->>>>>>> parent of 35ecfcc... updated scss and organized files
  }
     #logo-small {
         display: none;
  }
 }
 @media (min-width: 500px) {
-<<<<<<< HEAD
     #logo-large{
         max-width: 90%;
     }
@@ -40,8 +32,6 @@
         display: flex;
     }
 
-=======
->>>>>>> parent of 35ecfcc... updated scss and organized files
  //search bar appears & padding increase for top-menu
 }
 @media (min-width: 670px) {
