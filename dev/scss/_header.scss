@@ -4,7 +4,7 @@
 .top-menu {
     display: flex;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1020px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -78,19 +78,21 @@ header{
     .menu-btn{
         display: none;
     }
+    .desktop-bar{
+        display: flex; 
+        max-width: 1020px;
+        margin: 0 auto;
+        background-color: $darkBlue;
+    }
     .desktop-nav{
         display: flex;
         margin: 0 auto;
-        max-width: 1000px;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         background-color: $blue;
-        padding: 0px 10px;
         height: 40px;
-    }
-    .desktop-bar{
-        background-color: $darkBlue;
+        padding: 0px 20px
     }
     .search-input01{
         display: flex;
@@ -109,6 +111,14 @@ header{
     .show header nav{
         display: none;
     }
+    .nav-a2{
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 100;
+        width: 100%;
+    }
 }
 @media (min-width: 670px) {
     //top three images change format
@@ -122,5 +132,12 @@ header{
    }
    .search-input03{
        display: flex;
+       justify-content: space-between;
+       background-color: $searchGrey;
+       width: 250px;
+       align-items: center;
+       padding: 8px;
+       margin: 0px;
+       box-shadow: inset 0px 0px 4px grey;
    }
 }
