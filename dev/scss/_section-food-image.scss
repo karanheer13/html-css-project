@@ -24,3 +24,173 @@
  text-transform: uppercase;
 }
 
+// section part 2
+.section_2 {
+ width: 95%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+}
+
+.section_2 h3 {
+ background-color: #005991;
+ color: white;
+ padding: 15px 10px;
+ margin: 0;
+ text-transform: uppercase;
+}
+.section_2_img_container {
+ display: flex;
+ flex-direction: row;
+ background-color: white;
+ align-items: center;
+}
+
+.section_2_img_container img {
+ border: 1px solid #005991;
+ margin: 10px;
+}
+
+.section_2_img_container h4 {
+ text-transform: uppercase;
+}
+.section_2_img_container_1 {
+ display: flex;
+ flex-direction: row;
+ background-color: lightgray;
+ align-items: center;
+}
+
+.section_2_img_container_1 img {
+ border: 1px solid #005991;
+ margin: 10px;
+}
+
+.section_2_img_container_1 h4 {
+ text-transform: uppercase;
+ align-items: center;
+}
+
+// section part 3
+.section_3 {
+ width: 95%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+}
+
+.section_3 h3 {
+ background-color: #005991;
+ color: white;
+ padding: 15px 10px;
+ margin: 0;
+ margin-top: 10px;
+ text-transform: uppercase;
+}
+
+.section_3_ul_container {
+ background-color: white;
+ margin: 0;
+ list-style: none;
+ color: black;
+}
+
+.section_3_ul_container a {
+ text-decoration: none;
+ color: black;
+}
+
+// section part 4
+.section_4 {
+ width: 95%;
+ margin: 0 auto;
+ margin-top: 10px;
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+}
+
+.section_4 h2,
+p,
+img {
+ padding: 15px 10px;
+ margin: 0;
+}
+
+.section_4 h2 {
+ color: #005991;
+ text-transform: uppercase;
+ padding-bottom: 5px;
+}
+
+.section_4 p {
+ padding-top: 0;
+}
+
+.section_4 button {
+ background-color: #005991;
+ border: none;
+ color: white;
+ font-weight: 600;
+ width: 110px;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ margin: 15px 10px;
+ padding: 5px;
+ text-align: left;
+}
+
+// section 5
+.section_5 {
+ width: 95%;
+ margin: 0 auto;
+ margin-top: 10px;
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+}
+
+.section_5 h2,
+p,
+img {
+ padding: 15px 10px;
+ margin: 0;
+}
+
+.section_5 h2 {
+ color: #005991;
+ text-transform: uppercase;
+ padding-bottom: 5px;
+}
+
+.section_5 p {
+ padding-top: 0;
+}
+
+.section_5 button {
+ background-color: #005991;
+ border: none;
+ color: white;
+ font-weight: 600;
+ width: 110px;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ margin: 15px 10px;
+ padding: 5px;
+ text-align: left;
+}
+
+// section-6
+.section_6 {
+ width: 95%;
+ margin: 0 auto;
+ margin-top: 10px;
+}
+
+.section_6 img {
+ padding: 0;
+ margin-top: 15px;
+ margin-bottom: 30px;
+}
