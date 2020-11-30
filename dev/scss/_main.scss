@@ -2,3 +2,32 @@
  max-width: 1200px;
  margin: 0 auto;
 }
+
+@media (min-width: 800px) {
+ main {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  grid-template-areas:
+   "first  second"
+   "first  third"
+   "fourth third"
+   "fifth  fifth";
+ }
+ .first {
+  grid-area: first;
+ }
+ .second {
+  grid-area: second;
+ }
+ .third {
+  grid-area: third;
+ }
+ .fourth {
+  grid-area: fourth;
+ }
+ .fifth {
+  grid-area: fifth;
+ }
+}
