@@ -3,18 +3,34 @@
 }
 .top-menu {
     display: flex;
+    margin: auto;
+    max-width: 1000px;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    background-color: white;
     padding: 5px 10px;
+}
+header{
+    background-color: white;
 }
 .menu-btn {
     background-color: transparent;
-    border: transparent;
+    border: none;
 }
 .search-input01 {
     display: none;
 }
+.drop-down-nav{
+    display: none;
+}
+.show header nav {
+    display: block;
+    width: 100%;
+}
+.desktop-nav{
+    display: none;
+}
+
 @media (min-width: 335px) {
     #logo-large {
         display: block;
@@ -26,7 +42,18 @@
     }
 }
 @media (min-width: 500px) {
-    //search bar appears & padding increase for top-menu
+    .menu-btn{
+        display: none;
+    }
+    .desktop-nav{
+        display: flex;
+    }
+    .search-input01{
+        display: flex;
+    }
+    .search-input03{
+        display: none;
+    }
 }
 @media (min-width: 670px) {
     //top three images change format
@@ -35,5 +62,10 @@
     //socila media icons appear
 }
 @media (min-width: 800px) {
-    //recipes and cuisines shift to side menu
+   .search-input01{
+       display: none;
+   }
+   .search-input03{
+       display: flex;
+   }
 }
