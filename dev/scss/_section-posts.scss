@@ -105,3 +105,17 @@
  margin-top: 15px;
  margin-bottom: 30px;
 }
+
+@media (min-width: 800px) {
+ .section_4 {
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 0;
+ }
+
+ .section_5 {
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 0;
+ }
+}
