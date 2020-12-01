@@ -1,15 +1,16 @@
 #logo-large {
     display: none;
+    padding: 0px 15px;
 }
 .top-menu {
     display: flex;
-    margin: auto;
-    max-width: 1020px;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 5px 10px;
     background-color: white;
+    padding: 20px 0px;
+    max-width: 100%;
 }
 header{
     background-color: white;
@@ -63,7 +64,9 @@ header{
     border-radius: 5px;
     box-shadow: inset 0px 0px 2px grey;
 }
-
+.search-input03{
+    display: none;
+}
 @media (min-width: 335px) {
     #logo-large {
         display: block;
@@ -80,19 +83,25 @@ header{
     }
     .desktop-bar{
         display: flex; 
-        max-width: 1020px;
         margin: 0 auto;
-        background-color: $darkBlue;
+        width: 100%;
+        max-width: 1020px;
     }
     .desktop-nav{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         margin: 0 auto;
+        margin: 0px 20px;
         justify-content: space-between;
+        text-align: center;
         align-items: center;
         width: 100%;
         background-color: $blue;
         height: 40px;
-        padding: 0px 20px
+        transition: 0.5s;
+    }
+    .desktop-nav-bar{
+        background-color: $darkBlue;
     }
     .search-input01{
         display: flex;
@@ -101,7 +110,7 @@ header{
         width: 150px;
         align-items: center;
         padding: 5px;
-        margin: 0px;
+        margin-right: 15px;
         border-radius: 5px;
         box-shadow: inset 0px 0px 2px grey;
     }
@@ -117,18 +126,28 @@ header{
         text-decoration: none;
         font-size: 1em;
         font-weight: 100;
-        width: 100%;
+        line-height: 40px;
+    }
+    .desktop-nav a:hover{
+        background-color: white;
+        color: $blue;
+        transition: background-color 0.3s;
     }
 }
 @media (min-width: 670px) {
     //top three images change format
 }
 @media (min-width: 700px) {
-    //socila media icons appear
+    .desktop-nav{
+        font-size: 1.3em;
+    }
 }
 @media (min-width: 800px) {
    .search-input01{
        display: none;
+   }
+   .desktop-nav{
+       margin: 0px;
    }
    .search-input03{
        display: flex;
@@ -139,5 +158,14 @@ header{
        padding: 8px;
        margin: 0px;
        box-shadow: inset 0px 0px 4px grey;
+   }
+   
+}
+@media (min-width: 1000px){
+    .top-menu{
+       max-width: 1020px;
+   }
+   .desktop-nav{
+       max-width: 1020px;
    }
 }
