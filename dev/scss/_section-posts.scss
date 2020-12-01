@@ -108,14 +108,22 @@
 
 @media (min-width: 800px) {
  .section_4 {
-  max-width: 1000px;
   width: 100%;
   margin-top: 0;
+  padding: 20px 0px;
  }
-
+ .section_4 h2,
+ .section_5 h2 {
+  font-size: 2.2em;
+ }
+ .section_4 p,
+ .section_5 p {
+  padding-bottom: 15px;
+  font-size: 1.2em;
+ }
  .section_5 {
-  max-width: 1000px;
   width: 100%;
   margin-top: 0;
+  padding: 20px 0px;
  }
 }

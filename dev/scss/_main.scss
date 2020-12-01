@@ -8,11 +8,13 @@
   display: grid;
   width: 100%;
   grid-template-columns: 3fr 1fr;
-  gap: 10px;
+  grid-template-rows: repeat(5 1fr);
+  grid-gap: 10px;
   grid-template-areas:
    "first  second"
    "first  third"
    "fourth third"
+   "fifth  third"
    "fifth  third";
  }
  .first {

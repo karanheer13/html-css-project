@@ -28,6 +28,8 @@
 
 .section_2_img_container h4 {
  text-transform: uppercase;
+ align-items: center;
+ font-weight: 500;
 }
 .section_2_img_container_1 {
  display: flex;
@@ -44,6 +46,7 @@
 .section_2_img_container_1 h4 {
  text-transform: uppercase;
  align-items: center;
+ font-weight: 500;
 }
 
 // section part 3
@@ -78,12 +81,13 @@
 .section_3_ul_container a {
  text-decoration: none;
  color: black;
+ font-weight: 700;
 }
 
 // small tablet
 @media (min-width: 700px) {
  .section_2 h3 {
-  margin-top: 5px;
+  margin-top: 10px;
  }
  .section_3_ul_container {
   display: grid;
@@ -105,8 +109,10 @@
 }
 
 @media (min-width: 800px) {
+ .wrapper {
+  max-width: 1020px;
+ }
  .section_3 {
-  max-width: 1000px;
   width: 100%;
  }
 
