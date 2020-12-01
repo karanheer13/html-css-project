@@ -88,7 +88,8 @@ header{
         max-width: 1020px;
     }
     .desktop-nav{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         margin: 0 auto;
         margin: 0px 20px;
         justify-content: space-between;
@@ -97,7 +98,7 @@ header{
         width: 100%;
         background-color: $blue;
         height: 40px;
-        padding: 0px 30px;
+        transition: 0.5s;
     }
     .desktop-nav-bar{
         background-color: $darkBlue;
@@ -125,10 +126,9 @@ header{
         text-decoration: none;
         font-size: 1em;
         font-weight: 100;
-        width: 100%;
         line-height: 40px;
     }
-    .nav-a2:hover{
+    .desktop-nav a:hover{
         background-color: white;
         color: $blue;
         transition: background-color 0.3s;
