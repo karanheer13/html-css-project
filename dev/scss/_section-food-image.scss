@@ -3,6 +3,7 @@
  width: 95%;
  margin: 0 auto;
  text-align: center;
+ margin-top: 10px;
 }
 
 .section_1_img1_container {
@@ -74,11 +75,15 @@
   display: grid;
   grid-template-rows: 1fr 0;
  }
+
+ .img2 {
+  object-fit: cover;
+  height: 100%;
+ }
 }
 
 @media (min-width: 800px) {
  .section_1 {
   width: 100%;
-  max-width: 1000px;
  }
 }
