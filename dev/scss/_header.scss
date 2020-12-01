@@ -38,7 +38,6 @@ header{
     color: white;
     text-decoration: none;
     font-size: 1.3em;
-    font-weight: 100;
     width: 100%;
     padding: 10px 0px;
 }
@@ -67,6 +66,38 @@ header{
 .search-input03{
     display: none;
 }
+.social-links-desktop{
+    display: none;
+}
+.social-links-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+}
+.social-links-menu{
+    padding: 0px 30vw;
+}
+.fa-facebook-f:hover{
+    color: #a0a0a0;
+}
+.fa-facebook-f{
+    color: $blue;
+}
+.fa-google{
+    color: $blue;
+}
+.fa-google:hover{
+    color: #a0a0a0;
+}
+.fa-twitter{
+    color: $blue;
+}
+.fa-twitter:hover{
+    color: #a0a0a0;
+}
 @media (min-width: 335px) {
     #logo-large {
         display: block;
@@ -75,6 +106,9 @@ header{
     }
     #logo-small {
         display: none;
+    }
+    .social-links-menu{
+        padding: 0px 37vw;
     }
 }
 @media (min-width: 500px) {
@@ -125,7 +159,6 @@ header{
         color: white;
         text-decoration: none;
         font-size: 1em;
-        font-weight: 100;
         line-height: 40px;
     }
     .desktop-nav a:hover{
@@ -140,6 +173,42 @@ header{
 @media (min-width: 700px) {
     .desktop-nav{
         font-size: 1.3em;
+    }
+    .search-input01{
+        margin-right: 0px;
+    }
+    .search-fa{
+        display: flex;
+    }
+    .social-links-desktop{
+        display: flex;  
+        justify-content: space-between;
+        align-items: center; 
+        padding: 0px 10px;
+    }
+    .social-links-desktop ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin-right: 15px;
+    }
+    .fa-facebook-f{
+       padding: 0px 5px;
+    }
+    .fa-facebook-f:hover{
+        color: #a0a0a0;
+    }
+    .fa-google{
+        padding: 0px 5px;
+    }
+    .fa-google:hover{
+        color: #a0a0a0;
+    }
+    .fa-twitter{
+        padding: 0px 5px;
+    }
+    .fa-twitter:hover{
+        color: #a0a0a0;
     }
 }
 @media (min-width: 800px) {
@@ -159,7 +228,6 @@ header{
        margin: 0px;
        box-shadow: inset 0px 0px 4px grey;
    }
-   
 }
 @media (min-width: 1000px){
     .top-menu{
